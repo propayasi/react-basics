@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
 .App {
   text-align: center;
 }
@@ -22,6 +24,15 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  opacity: 0.75;
+  transition: opacity 0.5s ease-in-out;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
 }
 
 .App-link {
@@ -36,3 +47,4 @@
     transform: rotate(360deg);
   }
 }
+
