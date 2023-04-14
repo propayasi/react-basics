@@ -1,0 +1,23 @@
+.about_main_container {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
+}
+
+.about_content {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 65px;
+    padding-top: 30px;
+}
+
+.about_redirect {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    color: #FF247D;
+}

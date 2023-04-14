@@ -1,6 +1,6 @@
 import React from 'react'
-import logo from "../assests/svg.ghost-orb-logo.png"
-import '../styles/navbar.css'
+import logo from "../Assets/svg.ghost-orb-logo.png"
+import '../Styles/navbar.css'
 
 
 function Navbar() {

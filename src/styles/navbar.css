@@ -27,17 +27,23 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-left: 30px;
 }
 
 .signup_container {
-    background-color: black;
-    color: white;
-    margin-right: 20px;
-    padding: 1px 25px;
+    padding: 15px 30px;
+    font-size: 18px;
+    outline: none;
+     border: none;
     border-radius: 10px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 14px;
-    margin-top: 10px;
-}
+    transition: 0.5s;
+    background: #1e1e1e;
+    color: greenyellow;
+    box-shadow: 0 0 10px #363636, inset 0 0 10px #363636;
+    width: 11%;
+    padding-left: 30px;
+
+    
+    
+   
+}   
